@@ -1,0 +1,14 @@
+# Präfix für Chat-Rückmeldungen (MiniMessage-Format)
+prefix: '<gold>EasyHelp</gold> <dark_gray>┃</dark_gray> '
+# Unterstützt MiniMessage. Alte &-Farbcodes funktionieren zeilenweise weiterhin.
+header: '<dark_gray><st>        </st></dark_gray> <gold>Server-Hilfe</gold> <dark_gray><st>        </st></dark_gray>'
+entries:
+  - '<dark_gray>»</dark_gray> <yellow>/spawn</yellow> <dark_gray>-</dark_gray> <gray>Teleportiere dich zum Spawn'
+  - '<dark_gray>»</dark_gray> <yellow>/home</yellow> <dark_gray>-</dark_gray> <gray>Teleportiere dich nach Hause'
+  - '<dark_gray>»</dark_gray> <yellow>/sethome</yellow> <dark_gray>-</dark_gray> <gray>Setze dein Zuhause'
+  - '<dark_gray>»</dark_gray> <yellow>/tpa \<Spieler></yellow> <dark_gray>-</dark_gray> <gray>Sende eine Teleport-Anfrage'
+  - '<dark_gray>»</dark_gray> <yellow>/msg \<Spieler> \<Text></yellow> <dark_gray>-</dark_gray> <gray>Sende eine private Nachricht'
+  - '<dark_gray>»</dark_gray> <yellow>/kit</yellow> <dark_gray>-</dark_gray> <gray>Zeige verfügbare Kits'
+  - '<dark_gray>»</dark_gray> <yellow>/warp \<Name></yellow> <dark_gray>-</dark_gray> <gray>Teleportiere dich zu einem Warp'
+  - '<dark_gray>»</dark_gray> <yellow>/vote</yellow> <dark_gray>-</dark_gray> <gray>Vote für den Server und erhalte Belohnungen'
+footer: '<dark_gray><st>                              </st></dark_gray>'

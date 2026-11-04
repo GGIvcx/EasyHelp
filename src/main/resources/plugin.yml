@@ -1,0 +1,23 @@
+name: EasyHelp
+version: '${project.version}'
+main: de.ivcx.easyhelp.CustomHelp
+api-version: '26.3'
+author: Ivcx
+description: Zeigt eine frei konfigurierbare Hilfe-Seite an.
+prefix: EasyHelp
+
+commands:
+  help:
+    description: Zeigt die Hilfe an.
+    usage: /<command>
+    aliases: [hilfe, h]
+
+permissions:
+  easysystems.help.use:
+    description: Erlaubt das Anzeigen der Hilfe.
+    default: true
+  easysystems.help.*:
+    description: Gewährt alle EasyHelp-Berechtigungen.
+    default: op
+    children:
+      easysystems.help.use: true
